@@ -2,7 +2,6 @@ import requests
 import os
 import time
 
-# --- Configuration ---
 # Folder where books will be saved
 DATA_FOLDER = "data"
 
