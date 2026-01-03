@@ -42,7 +42,7 @@ def main():
     # 3. Quick Visualization of Diversity
     plt.figure(figsize=(10, 6))
     sns.barplot(data=df, x='year', y='lexical_diversity', hue='title', palette='viridis')
-    plt.title("Lexical Diversity: Did Vocabulary shrnk Over Time?")
+    plt.title("Lexical Diversity: Did Vocabulary shrink Over Time?")
     plt.ylabel("Unique Words / Total Words")
     plt.tight_layout()
     plt.show()
