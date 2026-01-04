@@ -18,7 +18,7 @@ def calculate_diversity(text):
     return diversity
 
 def get_top_words(text, n=10):
-    """Returns the top N most frequent words in a text string."""
+    # Returns the top N most frequent words in a text string.
     if not isinstance(text, str): return []
     words = text.split()
     counter = Counter(words)

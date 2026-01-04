@@ -8,7 +8,7 @@ RAW_DATA_FOLDER = "data"
 PROCESSED_FOLDER = "data/processed"
 
 def setup_folder():
-    """Create the data folder if it doesn't exist."""
+    # Create the data folder if it doesn't exist.
     if not os.path.exists(PROCESSED_FOLDER):
         os.makedirs(PROCESSED_FOLDER)
         print(f"Created folder: {PROCESSED_FOLDER}")
