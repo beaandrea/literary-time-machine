@@ -40,8 +40,8 @@ def download_book(book_id, filename):
         text = response.text
 
         # Since Project Gutenberg has legal headers and footers, we'd want to remove them.
-        start_marker = "*** START OF THE PROJECT GUTENBERG EBOOK"
-        end_marker = "*** END OF THE PROJECT GUTENBERG EBOOK"
+        start_marker = "*** START OF THE PROJECT GUTENBERG EBOOK ***"
+        end_marker = "*** END OF THE PROJECT GUTENBERG EBOOK ***"
 
         start_index = text.find(start_marker)
         end_index = text.find(end_marker)

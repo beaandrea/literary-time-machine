@@ -10,7 +10,7 @@ def calculate_diversity(text):
     Lexical Diversity = (Unique Words) / (Total Words)
     A higher number means the author uses a wider vocabulary range.
     """
-    if not isinstance(text, str): return 0
+    if not isinstance(text, str): return 0 
     words = text.split()
     if len(words) == 0: return 0
     unique_words = set(words)
