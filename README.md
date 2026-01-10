@@ -48,7 +48,7 @@ Historical progression is not linear. Despite being written nearly a century aft
 ![Interactive Map](figures/literary_map.png)
 
 ## 🛠️ Tech Stack
-* **Language:** Python 3.9
+* **Language:** Python 3.12
 * **Data Manipulation:** Pandas, NumPy
 * **Natural Language Processing:** NLTK (Tokenization, Stopword Removal, VADER Sentiment)
 * **Visualization:** Plotly (Interactive), Matplotlib/Seaborn (Static)
@@ -70,5 +70,4 @@ Historical progression is not linear. Despite being written nearly a century aft
 
 ## 👤 Author
 **Bea Andrea Gamilong**
-*Computer Science Student specializing in Data Science | University of Santo Tomas*
 [LinkedIn](https://www.linkedin.com/in/bea-andrea-gamilong) | [Email](mailto:beaandreagamilong@gmail.com)
