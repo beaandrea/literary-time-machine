@@ -77,7 +77,7 @@ def main():
     print("--- Plotting Trends ---")
     plt.show()
 
-    # 4. Save the enriched data (for Tableau)
+    # 4. Save the enriched data
     df.to_csv("data/processed/corpus_with_themes.csv", index=False)
     print("Saved enriched dataset to data/processed/corpus_with_themes.csv")
 

@@ -1,15 +1,15 @@
-# The Literary Time Machine 📚⏳
+# The Literary Time Machine
 
 ### Quantifying the Evolution of Literature using NLP & Python
 
 **Project Status:** ✅ Complete
 
-## 📖 Overview
+## Overview
 Does human emotion change over centuries? Do we use simpler words today than we did in the 1800s?
 
-**The Literary Time Machine** is a Data Science pipeline that ingests, cleans, and analyzes full-text novels from Project Gutenberg to answer these questions. By processing over **500,000+ words** of unstructured text data, this project quantifies the "shape" of stories and tracks cultural shifts in vocabulary (e.g., the rise of "Technology" vs. the fall of "Tradition").
+**The Literary Time Machine** is a Data Science pipeline that ingests, cleans, and analyzes full-text novels from Project Gutenberg to answer these questions. By processing over **500,000 words** of unstructured text data, this project quantifies the "shape" of stories and tracks cultural shifts in vocabulary (e.g., the rise of "Technology" vs. the fall of "Tradition").
 
-## 📊 Key Findings
+## Key Findings
 
 ### 1. The Myth of "Dumbing Down" (Lexical Diversity)
 Contrary to the hypothesis that modern vocabulary has degraded, **The Great Gatsby (1925)** exhibited the highest lexical diversity in the dataset, outperforming books from the 1800s.
@@ -29,7 +29,7 @@ Historical progression is not linear. Despite being written nearly a century aft
 *The Great Gatsby* clustered in the "Happy & Complex" quadrant of our Interactive Map.
 * **Critical Analysis:** This highlights a limitation of lexicon-based Sentiment Analysis (VADER). The model detected positive words associated with wealth ("party", "gold", "love") but failed to capture the **tragic irony** and underlying sarcasm of the novel. This suggests that future iterations would benefit from context-aware models (e.g., BERT) rather than bag-of-words approaches.
 
-## 📈 Visualizations
+## Visualizations
 
 ### 1. Lexical Diversity Comparison
 *Disproving the vocabulary decline hypothesis.*
@@ -47,17 +47,17 @@ Historical progression is not linear. Despite being written nearly a century aft
 *Clustering books by emotional tone and vocabulary complexity.*
 ![Interactive Map](figures/literary_map.png)
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Language:** Python 3.12
 * **Data Manipulation:** Pandas, NumPy
 * **Natural Language Processing:** NLTK (Tokenization, Stopword Removal, VADER Sentiment)
 * **Visualization:** Plotly (Interactive), Matplotlib/Seaborn (Static)
 * **Version Control:** Git & GitHub
 
-## 🚀 How to Run
+## How to Run
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/yourusername/literary-time-machine.git](https://github.com/yourusername/literary-time-machine.git)
+    git clone [https://github.com/beaandrea/literary-time-machine.git](https://github.com/beaandrea/literary-time-machine.git)
     ```
 2.  **Install dependencies:**
     ```bash
@@ -68,6 +68,8 @@ Historical progression is not linear. Despite being written nearly a century aft
     python scripts/6_interactive_viz.py
     ```
 
-## 👤 Author
-**Bea Andrea Gamilong**
+## Author
+**Bea Gamilong**
+*Data Analyst*
+*I build tools that turn messy data into clear narratives.*
 [LinkedIn](https://www.linkedin.com/in/bea-andrea-gamilong) | [Email](mailto:beaandreagamilong@gmail.com)
