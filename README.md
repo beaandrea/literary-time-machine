@@ -57,8 +57,7 @@ Historical progression is not linear. Despite being written nearly a century aft
 ## How to Run
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/beaandrea/literary-time-machine.git](https://github.com/beaandrea/literary-time-machine.git)
-    ```
+    git clone https://github.com/beaandrea/literary-time-machine.git
 2.  **Install dependencies:**
     ```bash
     pip install -r requirements.txt
