@@ -69,7 +69,8 @@ Historical progression is not linear. Despite being written nearly a century aft
     ```
 
 ## Author
-**Bea Gamilong**
-*Data Analyst*
-*I build tools that turn messy data into clear narratives.*
+
+**Bea Gamilong** <br>
+*Data Analyst* <br>
+*I build tools that turn messy data into clear narratives.* <br><br>
 [LinkedIn](https://www.linkedin.com/in/bea-andrea-gamilong) | [Email](mailto:beaandreagamilong@gmail.com)
